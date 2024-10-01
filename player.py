@@ -37,12 +37,7 @@ class Player(CircleShape):
             self.move(dt)
 
         if keys[pygame.K_s] or keys[pygame.K_DOWN]:
-            self.move(dt)
-
-        #arrows
-        if keys[pygame.K_LEFT]:
-            invert_dt = dt * -1
-            self.rotate(invert_dt)
+            self.move(-dt)
             
     def move(self, dt):
         forward = pygame.Vector2(0, 1).rotate(self.rotation)
