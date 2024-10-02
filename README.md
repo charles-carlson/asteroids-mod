@@ -1,3 +1,5 @@
+![Untitled design (1)](https://github.com/user-attachments/assets/432265f6-8f36-447c-a9f8-2de754963e60)
+
 # Pygame Asteroids Clone
 
 A recreation of the classic Asteroids game using Pygame, inspired by [freeasteroids.org](https://freeasteroids.org/).
